@@ -64,3 +64,17 @@ Components can access the state using the 'useSelector hook provided by 'react-r
 
 ![image](https://github.com/aarthipriya2021/redux_flow_documentation/assets/75599178/271f1c3f-864a-460d-a71d-48a06e0c3e6f)
 
+<h4>
+- useDispatch() hook
+</h4>
+
+useDispatch() hook is equivalent to mapDispatchToProps function. 
+This hook reference to the dispatch function from the redux store. You may use dispatch actions as you needed.
+
+<h4>
+- useSelector() hook
+</h4>
+
+useSelector() hook is equivalent to mapStateToProps function. 
+It takes in a function argument that returns the part of the state that you want.
+
